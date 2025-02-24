@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java_Training.iml" filepath="$PROJECT_DIR$/Java_Training.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_training_Interfaces/Java_training_Interfaces.iml" filepath="$PROJECT_DIR$/Java_training_Interfaces/Java_training_Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day1/Java_Training.iml" filepath="$PROJECT_DIR$/Day1/Java_Training.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day1/Java_training_Interfaces/Java_training_Interfaces.iml" filepath="$PROJECT_DIR$/Day1/Java_training_Interfaces/Java_training_Interfaces.iml" />
     </modules>
   </component>
 </project>
