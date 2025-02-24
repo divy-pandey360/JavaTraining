@@ -36,6 +36,7 @@ public class Tax {
 
         double taxableIncome = salary - deduction80C - deduction80D - deduction24;
         System.out.println(taxableIncome);
+        int YOUNG=60;
 
         if (this.age < 60) {
             if (taxableIncome <= 250000) {
