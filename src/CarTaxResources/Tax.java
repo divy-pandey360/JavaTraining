@@ -35,6 +35,7 @@ public class Tax {
         double deduction24 = Math.min(home_loan, 200000);
 
         double taxableIncome = salary - deduction80C - deduction80D - deduction24;
+        System.out.println(taxableIncome);
 
         if (this.age < 60) {
             if (taxableIncome <= 250000) {
@@ -44,7 +45,9 @@ public class Tax {
             } else if (taxableIncome <= 1000000) {
                 this.taxAmnt =(0.05 * 250000) + (0.2 * (taxableIncome-500000));
             } else {
-                this.taxAmnt = (0.05 * 250000) + (0.2 * 5000000) + (0.3 * (taxableIncome-1000000));
+
+                this.taxAmnt = (0.05 * 250000) + (0.2 * 500000) + (0.3 * (taxableIncome-1000000));
+                System.out.println("The total tax amount is: " + this.taxAmnt);
             }
         } else if (this.age >= 60 && this.age <= 80) {
             if (taxableIncome <= 300000) {
